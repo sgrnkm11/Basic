@@ -75,7 +75,7 @@ public class ReadWriteExcelFile {
 	 obj.WriteCell(path,4,5,result);
 	 
 	 Thread.sleep(8000);
-	 obj.readCell(path,2,0);
+	 obj.readCell(path,4,5);
  
  }
  } 
